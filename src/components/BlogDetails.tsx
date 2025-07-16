@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import type { Blog } from "../types/Blogs";
+import blogsData from "../data/blogs.json";
 
 const ImageSource = "../src/assets/images";
 
@@ -9,19 +10,9 @@ function BlogDetails() {
   const [blog, setBlog] = useState<Blog | null>(null);
 
   useEffect(() => {
-    const fetchBlog = async () => {
-      try {
-        const res = await fetch("/data/blogs.json");
-        const data: Blog[] = await res.json();
-        const found = data.find((b) => b.id === Number(id));
-        setBlog(found || null);
-      } catch (error) {
-        console.error("Failed to fetch blog data:", error);
-      }
-    };
-
-    fetchBlog();
-  }, [id]);
+  const found = blogsData.find((b) => b.id === Number(id));
+  setBlog(found || null);
+}, [id]);
 
   if (!blog) return <p>Loading...</p>;
 
