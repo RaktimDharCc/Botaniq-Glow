@@ -2,7 +2,7 @@ import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-run
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useCart } from "../context/CartContext";
-import ratingStar from "../assets/images/product-rating-star.png";
+import ratingStar from "/assets/images/product-rating-star.png";
 import "../assets/css/product.css";
 function ProductListing() {
     const [products, setProducts] = useState([]);

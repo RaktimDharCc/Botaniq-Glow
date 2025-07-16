@@ -7,8 +7,6 @@ import type { Product } from "../types/Product";
 import productsData  from "../data/products.json"
 import { Accordion } from "react-bootstrap";
 
-const ImageSource = "../src/assets/images";
-
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
@@ -85,7 +83,7 @@ function ProductDetails() {
               <h3 className="product-info-hdng">{product.title}</h3>
               <div className="product-rating">
                 <img
-                  src={`${ImageSource}/product-rating-star.png`}
+                  src="assets/images/product-rating-star.png"
                   alt="Rating"
                 />
                 <p>
@@ -182,7 +180,7 @@ function ProductDetails() {
                     <div className="product-description-container">
                       <h4>{relProd.title}</h4>
                       <img
-                        src={`${ImageSource}/product-rating-star.png`}
+                        src="assets/images/product-rating-star.png"
                         alt="Product Rating Star"
                       />
                       <p>

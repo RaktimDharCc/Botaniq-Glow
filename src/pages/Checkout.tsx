@@ -3,7 +3,7 @@ import { useCart } from "../context/CartContext";
 import "../assets/css/checkout-page.css";
 import { Link } from "react-router-dom";
 
-const ImageSource = "../src/assets/images";
+const ImageSource = "assets/images";
 
 function Checkout() {
   const { cartItems, updateQuantity, removeFromCart } = useCart();
@@ -249,7 +249,7 @@ function Checkout() {
 
                     <div className="order-summary-content-container">
                       <div className="order-summary-hdng">
-                        <img src={`${ImageSource}/order-summary-pc.png`} alt="" />
+                        <img src="assets/images/order-summary-pc.png" alt="" />
                         Order Summary
                       </div>
 

@@ -4,7 +4,6 @@ import { useCart } from "../context/CartContext";
 import type { Product } from "../types/Product";
 import productsData from "../data/products.json";
 
-import ratingStar from "../assets/images/product-rating-star.png";
 
 import "../assets/css/product.css";
 
@@ -40,7 +39,7 @@ useEffect(() => {
             </div>
             <div className="product-description-container">
               <h4>{product.title}</h4>
-              <img src={ratingStar} alt="Product Rating" />
+              <img src="/assets/images/product-rating-star.png" alt="Product Rating" />
               <p>
                 ₹ {product.price}
                 {product.originalPrice && <span> ₹ {product.originalPrice}</span>}

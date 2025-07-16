@@ -3,8 +3,6 @@ import { Link, useParams } from "react-router-dom";
 import type { Blog } from "../types/Blogs";
 import blogsData from "../data/blogs.json";
 
-const ImageSource = "../src/assets/images";
-
 function BlogDetails() {
   const { id } = useParams<{ id: string }>();
   const [blog, setBlog] = useState<Blog | null>(null);
@@ -29,7 +27,7 @@ function BlogDetails() {
             />
             <Link to="/products" className="common-btn">
               Check Our product Out{" "}
-              <img src={`${ImageSource}/arrow.svg`} alt="" />
+              <img src="assets/images/arrow.svg" alt="" />
             </Link>
           </div>
           <div className="blog-details-right-content">

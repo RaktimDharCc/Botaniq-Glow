@@ -2,8 +2,7 @@ import React, { useEffect, useState } from "react";
 import { useCart } from "../context/CartContext";
 import { NavLink } from "react-router-dom";
 import "../assets/css/header.css";
-import logo from "../assets/images/logo.png";
-import CartImage from "../assets/images/cart-pc.png";
+import CartImage from "/assets/images/cart-pc.png";
 
 function Header() {
   const { toggleSidebar } = useCart();
@@ -44,7 +43,7 @@ function Header() {
             <div className="col-md-2">
               <div className="logo-container">
                 <NavLink to="/">
-                  <img src={logo} alt="Logo" />
+                  <img src="/assets/images/logo.png" alt="Logo" />
                 </NavLink>
               </div>
             </div>
@@ -93,7 +92,7 @@ function Header() {
                     <li className="d-md-none">
                   <div className="cart-btn-content">
                       <button type="button" className="cart-btn" onClick={toggleSidebar}>
-                        <img src={CartImage} alt="Cart" />
+                        <img src="/assets/images/cart-pc.png" alt="Cart" />
                         Cart
                       </button>
                   </div>
@@ -104,7 +103,7 @@ function Header() {
               <div className="col-md-2 d-none d-md-block">
                 <div className="cart-btn-content">
                   <button type="button" className="cart-btn" onClick={toggleSidebar}>
-                    <img src={CartImage} alt="Cart" />
+                    <img src="/assets/images/cart-pc.png" alt="Cart" />
                     Cart
                   </button>
                 </div>

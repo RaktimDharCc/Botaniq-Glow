@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "../assets/css/home-page.css";
 import { NavLink, Link } from "react-router-dom";
 import BlogList from "../components/BlogList";
-const ImageSource = "./src/assets/images";
 
 function HomePage() {
   const [email, setEmail] = useState<string>("");
@@ -38,40 +37,40 @@ function HomePage() {
                   </p>
 
                   <div className="banner-right-sec d-md-none">
-                    <img src="./src/assets/images/banner-pc.png" alt="Banner Pc" />
+                    <img src="/assets/images/banner-pc.png" alt="Banner Pc" />
                   </div>
                   <ul className="banner-adv">
                     <li>
                       <img
-                        src="./src/assets/images/check-mark.svg"
+                        src="/assets/images/check-mark.svg"
                         alt="Check Mark"
                       />
                       100% Plant-Based Ingredients
                     </li>
                     <li>
                       <img
-                        src="./src/assets/images/check-mark.svg"
+                        src="/assets/images/check-mark.svg"
                         alt="Check Mark"
                       />
                       No Harmful Chemicals or Fillers
                     </li>
                     <li>
                       <img
-                        src="./src/assets/images/check-mark.svg"
+                        src="/assets/images/check-mark.svg"
                         alt="Check Mark"
                       />
                       Cruelty-Free & Vegan Certified
                     </li>
                     <li>
                       <img
-                        src="./src/assets/images/check-mark.svg"
+                        src="/assets/images/check-mark.svg"
                         alt="Check Mark"
                       />
                       Gentle on Sensitive Skin
                     </li>
                     <li>
                       <img
-                        src="./src/assets/images/check-mark.svg"
+                        src="/assets/images/check-mark.svg"
                         alt="Check Mark"
                       />
                       Powered by Nature, Backed by Science
@@ -79,7 +78,7 @@ function HomePage() {
                   </ul>
 
                   <NavLink to="/products/" className="common-btn">
-                    Try it today <img src={`${ImageSource}/arrow.svg`} alt="" />
+                    Try it today <img src="/assets/images/arrow.svg" alt="" />
                   </NavLink>
 
                   <div className="banner-review-content">
@@ -91,7 +90,7 @@ function HomePage() {
                     </p>
                     <div className="banner-author-details">
                       <img
-                        src={`${ImageSource}/review-author.png`}
+                        src="/assets/images/review-author.png"
                         alt="Review Author"
                       />
                       <div className="banner-author-sub-det">
@@ -107,7 +106,7 @@ function HomePage() {
             </div>
             <div className="col-md-6 d-none d-md-block">
               <div className="banner-right-sec">
-                <img src={`${ImageSource}/banner-pc.png`} alt="Banner Pc" />
+                <img src="/assets/images/banner-pc.png" alt="Banner Pc" />
               </div>
             </div>
           </div>
@@ -125,18 +124,18 @@ function HomePage() {
                 <div className="col-md-7">
                   <Link to="/collection/Facial-Care">
                     <img
-                      src={`${ImageSource}/our-prod-pc1.png`}
+                      src="/assets/images/our-prod-pc1.png"
                       alt="Facial Care"
                     />
                   </Link>
                 </div>
                 <div className="col-md-5">
                   <Link to="/collection/Special-Treatments"><img
-                    src={`${ImageSource}/our-prod-pc2.png`}
+                    src="/assets/images/our-prod-pc2.png"
                     alt="Special Treatments"
                   /></Link>
                    <Link to="/collection/Extras-Rituals"><img
-                    src={`${ImageSource}/our-prod-pc3.png`}
+                    src="/assets/images/our-prod-pc3.png"
                     alt="Extras / Rituals"
                   /></Link>
                   
@@ -152,16 +151,16 @@ function HomePage() {
           <div className="row align-items-center">
             <div className="col-md-7">
               <div className="about-us-left-content">
-                <img src={`${ImageSource}/about-us-pc.png`} alt="" className="d-none d-md-block" />
+                <img src="/assets/images/about-us-pc.png" alt="" className="d-none d-md-block" />
               </div>
             </div>
             <div className="col-md-5">
               <div className="about-us-right-content">
                 <h3>
-                  <img src={`${ImageSource}/about-us-hdng.png`} alt="" /> About
+                  <img src="/assets/images/about-us-hdng.png" alt="" /> About
                   Us
                 </h3>
-                <img src={`${ImageSource}/about-us-pc.png`} className="d-md-none" alt="" />
+                <img src="/assets/images/about-us-pc.png" className="d-md-none" alt="" />
                 <p>
                   At <strong>Botaniq Glow</strong>, we believe that radiant skin
                   starts with the earth. Inspired by the healing power of
@@ -198,7 +197,7 @@ function HomePage() {
             <div className="row">
               <div className="col-md-4">
                 <div className="ingredients-content">
-                  <img src={`${ImageSource}/ingredients-pc1.png`} alt="" />
+                  <img src="/assets/images/ingredients-pc1.png" alt="" />
                   <h4>Rosehip Oil</h4>
                   <p>
                     Rich in antioxidants and vitamins A & C, helps brighten skin
@@ -209,7 +208,7 @@ function HomePage() {
 
               <div className="col-md-4">
                 <div className="ingredients-content">
-                  <img src={`${ImageSource}/ingredients-pc2.png`} alt="" />
+                  <img src="/assets/images/ingredients-pc2.png" alt="" />
                   <h4>Green Tea Extract</h4>
                   <p>Soothes inflammation and fights free radicals.</p>
                 </div>
@@ -217,7 +216,7 @@ function HomePage() {
 
               <div className="col-md-4">
                 <div className="ingredients-content">
-                  <img src={`${ImageSource}/ingredients-pc3.png`} alt="" />
+                  <img src="/assets/images/ingredients-pc3.png" alt="" />
                   <h4>Sea Buckthorn</h4>
                   <p>
                     Boosts hydration and supports skin repair with omega fatty
@@ -228,7 +227,7 @@ function HomePage() {
 
               <div className="col-md-4">
                 <div className="ingredients-content">
-                  <img src={`${ImageSource}/ingredients-pc4.png`} alt="" />
+                  <img src="/assets/images/ingredients-pc4.png" alt="" />
                   <h4>Aloe Vera</h4>
                   <p>Deeply hydrates and calms sensitive skin.</p>
                 </div>
@@ -236,7 +235,7 @@ function HomePage() {
 
               <div className="col-md-4">
                 <div className="ingredients-content">
-                  <img src={`${ImageSource}/ingredients-pc5.png`} alt="" />
+                  <img src="/assets/images/ingredients-pc5.png" alt="" />
                   <h4>Witch Hazel</h4>
                   <p>Gently tones and purifies without stripping moisture.</p>
                 </div>
@@ -244,7 +243,7 @@ function HomePage() {
 
               <div className="col-md-4">
                 <div className="ingredients-content">
-                  <img src={`${ImageSource}/ingredients-pc6.png`} alt="" />
+                  <img src="/assets/images/ingredients-pc6.png" alt="" />
                   <h4>Chamomile</h4>
                   <p>Reduces redness and promotes a healthy glow.</p>
                 </div>
@@ -265,21 +264,21 @@ function HomePage() {
 
             <ul>
               <li>
-                <img src={`${ImageSource}/cross-mark.svg`} alt="" /> No Parabens
+                <img src="/assets/images/cross-mark.svg" alt="" /> No Parabens
               </li>
               <li>
-                <img src={`${ImageSource}/cross-mark.svg`} alt="" /> No Sulfates
+                <img src="/assets/images/cross-mark.svg" alt="" /> No Sulfates
               </li>
               <li>
-                <img src={`${ImageSource}/cross-mark.svg`} alt="" /> No
+                <img src="/assets/images/cross-mark.svg" alt="" /> No
                 Artificial Fragrances
               </li>
               <li>
-                <img src={`${ImageSource}/cross-mark.svg`} alt="" /> No Alcohols
+                <img src="/assets/images/cross-mark.svg" alt="" /> No Alcohols
                 or Silicones
               </li>
               <li>
-                <img src={`${ImageSource}/cross-mark.svg`} alt="" /> Not Tested
+                <img src="/assets/images/cross-mark.svg" alt="" /> Not Tested
                 on Animals.
               </li>
             </ul>
@@ -293,13 +292,13 @@ function HomePage() {
         <div className="container">
           <div className="glow-email-content-container">
             <div className="glow-email-left-content d-md-block d-none">
-              <img src={`${ImageSource}/glow-email-pc.png`} className="" alt="" />
+              <img src="/assets/images/glow-email-pc.png" className="" alt="" />
             </div>
             <div className="glow-email-right-content">
               {!submittedEmail && (
                 <>
                   <h3>Stay in the Glow</h3>
-                  <img src={`${ImageSource}/glow-email-pc.png`} className="d-block d-md-none w-100" alt="" />
+                  <img src="/assets/images/glow-email-pc.png" className="d-block d-md-none w-100" alt="" />
                   <p>
                     Be the first to know about exclusive offers, skincare tips,
                     and new botanical launches — straight to your inbox.
@@ -321,7 +320,7 @@ function HomePage() {
               )}
               {submittedEmail && (
                 <div className="after-email-content-container">
-                  <img src={`${ImageSource}/thanks.png`} alt="Thank you" />
+                  <img src="/assets/images/thanks.png" alt="Thank you" />
                   <p>
                     Thanks for putting your Trust upon us. We have received your
                     Email Address: <br />

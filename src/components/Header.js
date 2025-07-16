@@ -3,8 +3,8 @@ import { useEffect, useState } from "react";
 import { useCart } from "../context/CartContext";
 import { NavLink } from "react-router-dom";
 import "../assets/css/header.css";
-import logo from "../assets/images/logo.png";
-import CartImage from "../assets/images/cart-pc.png";
+import logo from "/assets/images/logo.png";
+import CartImage from "/assets/images/cart-pc.png";
 function Header() {
     const { toggleSidebar } = useCart();
     const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);

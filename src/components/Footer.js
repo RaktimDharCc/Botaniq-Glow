@@ -1,14 +1,14 @@
 import { jsx as _jsx, jsxs as _jsxs, Fragment as _Fragment } from "react/jsx-runtime";
 import { Link } from "react-router-dom";
 import "../assets/css/footer.css";
-import Footerlogo from "../assets/images/footer-logo.png";
-import FaceBookIcon from "../assets/images/facebook.svg";
-import WhatsappIcon from "../assets/images/whatsapp.svg";
-import InstagramIcon from "../assets/images/instagram.svg";
-import FooterPc1 from "../assets/images/footer-pc1.png";
-import FooterPc2 from "../assets/images/footer-pc2.png";
-import FooterPc3 from "../assets/images/footer-pc3.png";
-import FooterPc4 from "../assets/images/footer-pc4.png";
+import Footerlogo from "/assets/images/footer-logo.png";
+import FaceBookIcon from "/assets/images/facebook.svg";
+import WhatsappIcon from "/assets/images/whatsapp.svg";
+import InstagramIcon from "/assets/images/instagram.svg";
+import FooterPc1 from "/assets/images/footer-pc1.png";
+import FooterPc2 from "/assets/images/footer-pc2.png";
+import FooterPc3 from "/assets/images/footer-pc3.png";
+import FooterPc4 from "/assets/images/footer-pc4.png";
 const ImageSource = "./src/assets/images";
 function Footer() {
     const currentYear = new Date().getFullYear();
