@@ -1,0 +1,178 @@
+.top-header {
+     background-color: #eed6c8;
+     padding: 10px 0;
+     text-align: center;
+}
+ .top-header p {
+     margin-bottom: 0;
+     font-size: 16px;
+     font-weight: 500;
+}
+ .top-header p span {
+     font-size: 20px;
+     color: #c83434;
+     font-style: normal;
+}
+ header .bottom-header {
+     padding: 17px 0;
+     box-shadow: 0px 4px 9px 0px #00000040;
+}
+ .logo-container img {
+     width: 100%;
+}
+ .nav-links {
+     text-align: center;
+}
+ .nav-links ul {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+ .nav-links ul li {
+     list-style-type: none;
+     padding: 0 17px;
+}
+ .nav-links ul li a, .cart-btn-content button {
+     text-decoration: none;
+     color: #414141;
+     font-size: 16px;
+     position: relative;
+     transition: all 0.5s;
+}
+ .nav-links ul {
+     margin-bottom: 0;
+}
+ .cart-btn-content button img {
+     margin-right: 5px;
+     margin-top: -5px;
+}
+ .nav-links ul li a::before {
+     content: " ";
+     position: absolute;
+     bottom: -2px;
+     height: 1px;
+     width: 0;
+     background-color: #917a6e;
+     transition: all 0.8s;
+}
+ .nav-links ul li a:hover, .nav-links ul li a.active {
+     color: #917a6e;
+}
+ .nav-links ul li a:hover::before, .nav-links ul li a.active::before {
+     width: 100%;
+}
+ button.cart-btn {
+     border: none;
+     background: none;
+}
+ .cart-btn-content {
+     text-align: right;
+}
+ .bottom-header {
+     position: static;
+     top: 0;
+     width: 100%;
+     transition: all 0.3s ease;
+     z-index: 999;
+}
+ .bottom-header.sticky {
+     position: fixed;
+     top: 0;
+     left: 0;
+     right: 0;
+     background: #fff;
+     box-shadow: -4px 7px 15px rgba(0, 0, 0, 0.1);
+     z-index: 9999;
+}
+ .top-header {
+     z-index: 10000;
+}
+.mobile-holder-container {
+    width: 82% !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+ @media (max-width:767px) {
+     .mobile-header-btn span {
+         width: 25px;
+         min-height: 3px;
+         max-height: 3px;
+         height: 3px;
+         background: #000;
+         border-radius: 10px;
+         margin-bottom: 5px;
+         display: block;
+    }
+     .mobile-header-btn {
+         display: flex;
+         width: fit-content !important;
+         align-items: flex-end;
+         flex-direction: column;
+         border:none;
+         background: transparent;
+         transition: all 0.5s;
+    }
+     .bottom-header .col-md-2{
+         width: 50%;
+         padding: 0;
+    }
+.mobile-holder-container {
+    position: fixed;
+    left: 100%;
+    flex-direction: column;
+    padding: 0;
+    display: flex;
+    width: 100% !important;
+    top: 88px;
+}
+     .mobile-holder-container.show {
+         left: 0;
+         padding: 0;
+         transition: all ease 0.5s;
+    }
+     .mobile-holder-container nav.nav-links{
+         position: absolute;
+         height: 100vh;
+         top: 44px;
+         background: #fff;
+         width: 100%;
+    }
+     .mobile-holder-container nav.nav-links ul {
+         flex-direction: column;
+         padding-left: 0;
+    }
+     .mobile-holder-container nav.nav-links ul li {
+         border-bottom: 1.5px solid #919191;
+         width: 100%;
+         padding: 0;
+    }
+     .cart-btn-content {
+         text-align: center;
+         padding: 14px 0;
+    }
+     .mobile-holder-container nav.nav-links ul li a{
+         width: 100%;
+         display: block;
+         padding: 10px 0;
+    }
+     .mobile-holder-container nav.nav-links ul li a::before{
+         display: none;
+    }
+     .nav-links ul li a:hover, .nav-links ul li a.active{
+         background-color: #917a6e;
+         color: #fff;
+    }
+    .mobile-header-btn.clicked span:first-child{
+      display: none;
+    }
+    .mobile-header-btn.clicked span:nth-child(2) {
+        transform: rotate(40deg);
+    }
+    .mobile-header-btn.clicked span:nth-child(3) {
+        transform: rotate(139deg) translate(-5px, 6px);
+    }
+    .bottom-header {
+      overflow: hidden;
+  }
+}

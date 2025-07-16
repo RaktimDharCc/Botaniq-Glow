@@ -1,0 +1,435 @@
+/* Banner Section starts */
+
+.banner-sec {
+  background: url(../images/banner-bg.png) no-repeat 100% 100% / cover, #c3d6c4;
+  padding: 33px 0 49px;
+}
+.banner-right-sec img {
+  width: 100%;
+}
+.banner-heading h1 {
+  font-size: 50px;
+  color: #000;
+  line-height: 156%;
+  letter-spacing: 0px;
+  font-family: Kugile;
+}
+.banner-heading h1 span {
+  font-size: 65px;
+}
+.banner-heading p {
+  font-size: 18.5px;
+  line-height: 151%;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+}
+.banner-adv {
+  padding-left: 0;
+  margin-bottom: 45px;
+}
+.banner-adv li {
+  list-style-type: none;
+  list-style-position: inside;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+.banner-adv li img {
+  margin-right: 4px;
+}
+.banner-review-content {
+  margin-top: 26px;
+  max-width: 487px;
+  padding: 14px;
+  border-radius: 6px;
+  border: 2px dashed #958578;
+  background-color: #e1ebe2;
+}
+.banner-review-content p {
+  font-size: 21px;
+  line-height: 30px;
+  color: #222;
+  font-style: italic;
+}
+.banner-author-details {
+  display: flex;
+  align-items: center;
+}
+.banner-author-details .banner-author-sub-det p {
+  margin-bottom: 0;
+  margin-left: 4px;
+  font-size: 21px;
+  line-height: 14px;
+}
+.banner-author-details .banner-author-sub-det p span {
+  font-size: 10px;
+}
+.banner-author-details img {
+  width: 60px;
+  height: 60px;
+}
+/* Banner Section ends */
+
+/* Our Products starts */
+.our-products-sec {
+  padding: 87px 0;
+}
+.our-prod-content {
+  margin-top: 66px;
+}
+.our-prod-content img {
+  width: 100%;
+}
+.our-prod-content .col-md-5 img + img {
+  margin-top: 20px;
+}
+/* Our Products ends */
+
+/* About Us section starts */
+
+.about-us-section {
+  padding: 102px 0 100px;
+  background: linear-gradient(
+    180deg,
+    rgba(165, 191, 172, 0.51) 23%,
+    rgba(147, 127, 114, 0.47) 100%
+  );
+}
+.about-us-left-content img {
+  width: 100%;
+}
+.about-us-right-content img {
+  width: 45px;
+}
+.about-us-right-content h3 {
+  font-size: 45px;
+  color: #000;
+  line-height: 120%;
+  font-family: "Kugile";
+  margin-bottom: 21px;
+}
+.about-us-right-content p {
+  font-size: 16px;
+  line-height: 160%;
+}
+.about-us-right-content p:last-child {
+  margin-bottom: 0;
+}
+.about-us-right-content p strong {
+  font-style: italic;
+}
+/* About Us section ends */
+
+/* Ingredients section starts */
+.ingredients-sec {
+  padding: 91px 0 120px;
+}
+.ingredients-content-container {
+  margin-top: 31px;
+}
+.ingredients-content img {
+  width: 75%;
+  margin-top: 69px;
+}
+.ingredients-content {
+  text-align: center;
+}
+.ingredients-content h4 {
+  margin-top: 40px;
+  font-size: 45px;
+  font-weight: 700;
+}
+.ingredients-content p {
+  font-size: 25px;
+  line-height: 120%;
+  font-weight: 500;
+  font-style: italic;
+}
+/* Ingredients section ends */
+
+/* Always Clean section starts */
+.always-clean-sec {
+  padding: 51px 0 66px;
+  background: #222;
+  position: relative;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+.always-clean-sec::before,
+.always-clean-sec::after {
+  content: " ";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  background: url(../images/always-sec-before-pc.png) no-repeat 100% 100% /
+    contain;
+  width: 312px;
+  height: 377px;
+  z-index: 5;
+}
+.always-clean-sec::after {
+  background: url(../images/always-sec-after-pc.png) no-repeat 100% 100% /
+    contain;
+  right: -23px;
+  left: auto;
+  width: 390px;
+  height: 518px;
+}
+.always-clean-hdng h3 {
+  font-size: 45px;
+  font-style: italic;
+  letter-spacing: 6px;
+  line-height: 120%;
+  font-weight: 700;
+}
+.always-clean-hdng h3 span.color-scheme-1 {
+  color: #a2b2a0;
+}
+.always-clean-hdng h3 span.color-scheme-2 {
+  color: #948376;
+}
+.always-clean-hdng ul {
+  margin-bottom: 0;
+  padding-left: 0;
+  margin-top: 44px;
+}
+.always-clean-hdng ul li img {
+  margin-right: 5px;
+}
+.always-clean-hdng ul li {
+  font-family: "Kugile";
+  font-size: 20px;
+  line-height: 45px;
+  margin-bottom: 6px;
+  list-style-type: none;
+}
+/* Always Clean section ends */
+/* Get Email section starts */
+section.glow-email-sec {
+  padding: 0 0 95px;
+}
+.glow-email-content-container {
+  display: flex;
+  align-items: center;
+  background: #feddcb;
+  border-radius: 50px 200px 0px 50px;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  justify-content: space-between;
+  padding-right: 15px;
+}
+.glow-email-left-content {
+  width: 60%;
+}
+.glow-email-left-content img {
+  width: 100%;
+}
+.glow-email-right-content .common-btn {
+  font-size: 20px;
+}
+.glow-email-right-content {
+  margin-left: 15px;
+  width: 38%;
+}
+
+.glow-email-right-content h3 {
+  font-family: "Kugile";
+  font-size: 38px;
+  margin-bottom: 17px;
+}
+
+.glow-email-right-content p {
+  font-size: 15px;
+  margin-bottom: 32px;
+}
+
+.email-content-container input {
+  background: transparent;
+  width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  margin-bottom: 35px;
+  padding-left: 27px;
+  border: 1px solid #222;
+}
+
+.email-content-container input::placeholder {
+  font-size: 18px;
+  font-weight: 300;
+  color: #000000ab;
+}
+
+.after-email-content-container {
+  text-align: center;
+}
+
+.after-email-content-container p {
+  font-size: 25px;
+  margin-bottom: 0;
+  margin-top: 20px;
+}
+/* Get Email section ends */
+@media (max-width:1199.5px) {
+  .banner-heading h1 {
+    font-size: 40px;
+}
+.banner-heading h1 span {
+    font-size: 47px;
+}
+.banner-heading p {
+    font-size: 14.5px;
+    line-height: 20px;
+}
+.banner-adv li {
+    font-size: 14px;
+}
+.banner-adv {
+    margin-bottom: 25px;
+}
+}
+@media (max-width:991.5px) {
+.nav-links ul li {
+    padding: 0 10px;
+}
+.nav-links ul li a, .cart-btn-content button {
+    font-size: 14px;
+}
+.our-products-sec {
+    padding: 47px 0;
+}
+.about-us-section {
+    padding: 42px 0;
+}
+.about-us-section .col-md-7{
+  width: 40%;
+}
+.about-us-section .col-md-5{
+  width: 60%;
+}
+.about-us-right-content p {
+    font-size: 13px;
+}
+.ingredients-sec {
+    padding: 41px 0;
+}
+.ingredients-content h4 {
+    margin-top: 20px;
+    font-size: 30px;
+}
+.ingredients-content p {
+    font-size: 16px;
+}
+.glow-email-content-container {
+    border-radius: 50px 110px 0px 50px;
+}
+.top-footer-content-container .top-footer-content b {
+    font-size: 20px;
+}
+}
+@media (max-width:767px) {
+    .banner-heading h1 span {
+        font-size: 39px;
+        font-weight: 700;
+    }
+    .banner-heading h1 {
+        font-size: 30px;
+    }
+    .our-prod-content a {
+        margin-top: 10px;
+        display: block;
+    }
+    .our-prod-content .col-md-5{
+        display: flex;
+        gap: 0 7px;
+    }
+    .our-prod-content {
+        margin-top: 36px;
+    }
+    .our-products-sec {
+        padding: 47px 0;
+    }
+    .sec-hdng::after {
+      width: 124px;
+  }
+  .sec-hdng {
+      font-size: 35px;
+  }
+  .about-us-section {
+    padding: 52px 0 50px;
+}
+.about-us-right-content img {
+    width: 25px;
+}
+.about-us-right-content > img{
+  width: 100%;
+  margin-bottom: 15px;
+}
+.about-us-right-content h3 {
+    font-size: 35px;
+}
+.ingredients-sec {
+    padding: 41px 0;
+}
+.ingredients-content img {
+    width: 75%;
+    margin-top: 0;
+}
+.ingredients-content-container .col-md-4{
+  width: 50%;
+}
+.ingredients-content h4 {
+    margin-top: 18px;
+    font-size: 20px;
+}
+.ingredients-content p {
+    font-size: 14px;
+}
+.always-clean-sec::before, .always-clean-sec::after{
+  display: none;
+} 
+.always-clean-hdng h3 {
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+.always-clean-sec {
+    padding: 40px 0;
+}
+.always-clean-hdng ul li {
+    font-size: 14px;
+    line-height: 28px;
+}
+.blog-list-sec {
+    padding: 50px 0;
+}
+.blog-list-sec .sec-hdng {
+    margin-bottom: 40px;
+}
+.blog-card-body h5 {
+    font-size: 25px;
+}
+.blog-card-body {
+    margin: 27px 0 49px;
+}
+.glow-email-right-content {
+  width: 100%;
+}
+.glow-email-content-container {
+    border-radius: 0px 50px 0 50px;
+    padding: 25px 15px;
+}
+.glow-email-right-content h3 {
+    font-size: 30px;
+}
+.glow-email-right-content  img{
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    margin-bottom: 20px;
+}
+.glow-email-right-content{
+  margin: 0;
+}
+section.glow-email-sec {
+    padding: 0 0 55px;
+}
+
+}

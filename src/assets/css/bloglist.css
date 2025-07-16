@@ -1,0 +1,83 @@
+.blog-list-sec {
+  padding: 96px 0 59px;
+}
+.blog-list-sec .sec-hdng {
+  margin-bottom: 80px;
+}
+.blog-card-body {
+  text-align: center;
+  margin: 47px 0 89px;
+}
+.blog-card-body h5 {
+  font-size: 28px;
+  line-height: 151%;
+  letter-spacing: 1px;
+  font-family: "Kugile";
+}
+.blog-card-body p {
+  font-size: 16px;
+  line-height: 151%;
+  letter-spacing: 1px;
+  min-height: 100px;
+}
+.blog-card-body a.common-btn {
+  box-shadow: 0px 4px 4px 0px #00000040;
+  padding: 20px 75px 13px;
+  line-height: 24px;
+}
+.blog-details-container {
+  padding: 40px 0 70px;
+}
+.blog-details-container a.common-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 15px 60px 7px;
+}
+.blog-details-container a.common-btn img {
+  margin-top: -10px;
+  margin-left: 10px;
+}
+.blog-details-container h1 {
+  font-family: "Kugile";
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.5;
+}
+.blog-details-container h2 {
+  font-weight: 800;
+  font-size: 30px;
+}
+.blog-details-content-container {
+    display: flex;
+    justify-content: space-between;
+}
+.blog-details-left-content {
+    width: 56%;
+}
+.blog-details-right-content {
+    width: 40%;
+}
+.blog-details-content-container {
+  display: flex;
+  gap: 30px;
+}
+
+.blog-details-left-content {
+  flex: 1;
+}
+
+.blog-details-right-content {
+  flex: 0 0 300px; /* adjust width if needed */
+}
+
+.sticky-image-container {
+  position: sticky;
+  top: 100px; /* distance from top of viewport while scrolling */
+  align-self: flex-start;
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}

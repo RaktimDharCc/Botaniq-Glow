@@ -1,0 +1,16 @@
+.order-confirmation-content {
+    padding: 120px 0;
+    text-align: center;
+    max-width: 730px;
+    margin: auto;
+}
+.order-confirmation-content b {
+    font-size: 50px;
+    letter-spacing: 1px;
+    font-family: "Kugile";
+    color: #917A6E;
+    display: block;
+}
+.order-confirmation-content p{
+    font-size: 20px;
+}
