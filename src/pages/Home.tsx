@@ -38,40 +38,40 @@ function HomePage() {
                   </p>
 
                   <div className="banner-right-sec d-md-none">
-                    <img src={`${ImageSource}/banner-pc.png`} alt="Banner Pc" />
+                    <img src="./src/assets/images/banner-pc.png" alt="Banner Pc" />
                   </div>
                   <ul className="banner-adv">
                     <li>
                       <img
-                        src={`${ImageSource}/check-mark.svg`}
+                        src="./src/assets/images/check-mark.svg"
                         alt="Check Mark"
                       />
                       100% Plant-Based Ingredients
                     </li>
                     <li>
                       <img
-                        src={`${ImageSource}/check-mark.svg`}
+                        src="./src/assets/images/check-mark.svg"
                         alt="Check Mark"
                       />
                       No Harmful Chemicals or Fillers
                     </li>
                     <li>
                       <img
-                        src={`${ImageSource}/check-mark.svg`}
+                        src="./src/assets/images/check-mark.svg"
                         alt="Check Mark"
                       />
                       Cruelty-Free & Vegan Certified
                     </li>
                     <li>
                       <img
-                        src={`${ImageSource}/check-mark.svg`}
+                        src="./src/assets/images/check-mark.svg"
                         alt="Check Mark"
                       />
                       Gentle on Sensitive Skin
                     </li>
                     <li>
                       <img
-                        src={`${ImageSource}/check-mark.svg`}
+                        src="./src/assets/images/check-mark.svg"
                         alt="Check Mark"
                       />
                       Powered by Nature, Backed by Science
