@@ -6,7 +6,7 @@ import ProductImagesSlider from "../components/ProductImageSlider";
 import { useCart } from "../context/CartContext";
 import productsData from "../data/products.json";
 import { Accordion } from "react-bootstrap";
-const ImageSource = "../src/assets/images";
+const ImageSource = "/assets/images";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const isProduct = (item) => {

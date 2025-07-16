@@ -63,11 +63,11 @@ function TermsConditions() {
             <br />
             <br />
             <a href="mailto:support@botaniqglow.com" className="terms-mail">
-              <img src="assets/images/gmail.png" alt="" /> support@botaniqglow.com
+              <img src="/assets/images/gmail.png" alt="" /> support@botaniqglow.com
             </a>
             <br />
             <p className="address-content">
-              <img src="assets/images/map.png" alt="" />
+              <img src="/assets/images/map.png" alt="" />
               Botaniq Glow <br />
               32, Fernleaf Avenue, <br />
               Sector 45, Green Park, <br />

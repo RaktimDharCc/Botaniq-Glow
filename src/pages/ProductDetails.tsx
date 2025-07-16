@@ -83,7 +83,7 @@ function ProductDetails() {
               <h3 className="product-info-hdng">{product.title}</h3>
               <div className="product-rating">
                 <img
-                  src="assets/images/product-rating-star.png"
+                  src="/assets/images/product-rating-star.png"
                   alt="Rating"
                 />
                 <p>
@@ -180,7 +180,7 @@ function ProductDetails() {
                     <div className="product-description-container">
                       <h4>{relProd.title}</h4>
                       <img
-                        src="assets/images/product-rating-star.png"
+                        src="/assets/images/product-rating-star.png"
                         alt="Product Rating Star"
                       />
                       <p>
