@@ -3,7 +3,7 @@ import { useState } from "react";
 import "../assets/css/home-page.css";
 import { NavLink, Link } from "react-router-dom";
 import BlogList from "../components/BlogList";
-const ImageSource = "./src/assets/images";
+const ImageSource = "/assets/images";
 function HomePage() {
     const [email, setEmail] = useState("");
     const [submittedEmail, setSubmittedEmail] = useState("");
