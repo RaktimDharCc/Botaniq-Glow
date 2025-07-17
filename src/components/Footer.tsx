@@ -61,9 +61,6 @@ function Footer() {
             <div className="footer-nav-links">
               <ul>
                 <li>
-                  <Link to="/AboutUs">About Us</Link>
-                </li>
-                <li>
                   <Link to="/ReturnPolicy">Returns Policy</Link>
                 </li>
                 <li>

@@ -18,7 +18,6 @@ import TermsConditions from "./pages/TermsConditions";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import ReturnPolicy from "./pages/ReturnPolicy";
 import Footer from "./components/Footer";
-import AboutUs from "./pages/AboutUs";
 import CartSidebar from "./components/CartSidebar";
 
 import { CartProvider } from "./context/CartContext";
@@ -53,7 +52,6 @@ function App() {
           <Route path="/ReturnPolicy" element={<ReturnPolicy />} />
           <Route path="/blogs" element={<BlogList />} />
           <Route path="/blogs/:id" element={<BlogDetails />} />
-          <Route path="/AboutUs" element={<AboutUs />} />
         </Routes>
       </main>
 
