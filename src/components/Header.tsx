@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { useCart } from "../context/CartContext";
-import { NavLink } from "react-router-dom";
+import { NavLink, useLocation } from "react-router-dom";
 import "../assets/css/header.css";
-import CartImage from "/assets/images/cart-pc.png";
 
 function Header() {
   const { toggleSidebar } = useCart();
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const location = useLocation();
+  const pathname = location.pathname;
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen((prev) => !prev);
@@ -65,37 +66,37 @@ function Header() {
                 <nav className="nav-links">
                   <ul>
                     <li>
-                      <NavLink to="/" className={({ isActive }) => (isActive ? "active" : "")}>
+                      <NavLink to="/" className={pathname === "/" ? "active" : ""}>
                         Home
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/products" className={({ isActive }) => (isActive ? "active" : "")}>
+                      <NavLink to="/products" className={pathname.startsWith("/products") ? "active" : ""}>
                         Shop
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/ContactUs" className={({ isActive }) => (isActive ? "active" : "")}>
+                      <NavLink to="/ContactUs" className={pathname.startsWith("/ContactUs") ? "active" : ""}>
                         Contact
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/TermsConditions" className={({ isActive }) => (isActive ? "active" : "")}>
+                      <NavLink to="/TermsConditions" className={pathname.startsWith("/TermsConditions") ? "active" : ""}>
                         Terms & Conditions
                       </NavLink>
                     </li>
                     <li>
-                      <NavLink to="/faqs" className={({ isActive }) => (isActive ? "active" : "")}>
+                      <NavLink to="/faqs" className={pathname.startsWith("/faqs") ? "active" : ""}>
                         FAQs
                       </NavLink>
                     </li>
                     <li className="d-md-none">
-                  <div className="cart-btn-content">
-                      <button type="button" className="cart-btn" onClick={toggleSidebar}>
-                        <img src="/assets/images/cart-pc.png" alt="Cart" />
-                        Cart
-                      </button>
-                  </div>
+                      <div className="cart-btn-content">
+                        <button type="button" className="cart-btn" onClick={toggleSidebar}>
+                          <img src="/assets/images/cart-pc.png" alt="Cart" />
+                          Cart
+                        </button>
+                      </div>
                     </li>
                   </ul>
                 </nav>

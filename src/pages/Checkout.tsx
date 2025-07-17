@@ -8,7 +8,6 @@ const ImageSource = "assets/images";
 function Checkout() {
   const { cartItems, updateQuantity, removeFromCart } = useCart();
 
-  // Toggle billing content visibility based on checkbox state
   useEffect(() => {
     const checkbox = document.getElementById(
       "shipping-billing"
@@ -21,7 +20,7 @@ function Checkout() {
       const toggleBillingContent = () => {
         if (checkbox.checked) {
           billingContent.style.display = "block";
-          void billingContent.offsetHeight; // force reflow
+          void billingContent.offsetHeight;
           billingContent.style.maxHeight = billingContent.scrollHeight + "px";
         } else {
           billingContent.style.maxHeight = "0";
@@ -36,7 +35,6 @@ function Checkout() {
 
       checkbox.addEventListener("change", toggleBillingContent);
 
-      // Clean up on unmount
       return () => {
         checkbox.removeEventListener("change", toggleBillingContent);
       };
@@ -61,7 +59,6 @@ function Checkout() {
                       <h2>Billing Information</h2>
                     </div>
 
-                    {/* Form Fields */}
                     <div className="row">
                       {[
                         { id: "fname", label: "First Name" },
@@ -120,7 +117,6 @@ function Checkout() {
                     </div>
                   </div>
 
-                  {/* Checkbox */}
                   <div className="newsletter-content">
                     <input
                       type="checkbox"
@@ -141,7 +137,6 @@ function Checkout() {
                     </label>
                   </div>
 
-                  {/* Billing Content Toggle */}
                   <div className="billing-content-container mt-4">
                     <div className="row">
                       {[
@@ -191,9 +186,9 @@ function Checkout() {
                   <div className="order-information-content-container">
                     {cartItems.length === 0 ? (
                       <p>
-            You have no items added in your cart. <br /> Visit our{" "}
-            <Link to="/products">Products section</Link> to add it.
-          </p>
+                        You have no items added in your cart. <br /> Visit our{" "}
+                        <Link to="/products">Products section</Link> to add it.
+                      </p>
                     ) : (
                       cartItems.map((item) => (
                         <div className="order-info-content" key={item.id}>
@@ -239,7 +234,7 @@ function Checkout() {
                               ✖
                             </div>
                             <p className="order-price">
-                              Rs {item.price * item.quantity}
+                              Rs {(item.price * item.quantity).toFixed(2)}
                             </p>
                           </div>
                         </div>
@@ -247,70 +242,70 @@ function Checkout() {
                     )}
                   </div>
 
-                    <div className="order-summary-content-container">
-                      <div className="order-summary-hdng">
-                        <img src="assets/images/order-summary-pc.png" alt="" />
-                        Order Summary
-                      </div>
-
-                      <div className="order-summary-main-content">
-                        <div className="order-summary-main-content-hdng">
-                          <p>Item</p>
-                          <p>Price</p>
-                        </div>
-                        <div className="order-summary-main-content">
-  {cartItems.length === 0 ? (
-    <p>
-            You have no items added in your cart. <br /> Visit our{" "}
-            <Link to="/products">Products section</Link> to add it.
-          </p>
-  ) : (
-    cartItems.map((item) => (
-      <div className="order-summary-content" key={item.id}>
-        <p className="item-name">{item.title} × {item.quantity}</p>
-        <p className="item-price">₹ {item.price * item.quantity}</p>
-      </div>
-    ))
-  )}
-
-        {/* Shipping */}
-        {cartItems.length > 0 && (
-          <>
-            <div className="order-summary-content">
-              <p className="item-name">Shipping</p>
-              <p className="item-price">₹ 75</p>
-            </div>
-
-            {/* Discount */}
-            <div className="order-summary-content">
-              <p className="item-name">Discount</p>
-              <p className="item-price">- ₹ 75</p>
-            </div>
-          </>
-        )}
-</div>
-                      </div>
+                  <div className="order-summary-content-container">
+                    <div className="order-summary-hdng">
+                      <img src="assets/images/order-summary-pc.png" alt="" />
+                      Order Summary
                     </div>
 
-                    {/* Order Total */}
-                    {cartItems.length > 0 && (
-                      <div className="order-total">
-                        <p className="total-price">
-                          <span>Total: </span> <span> Rs <span>{" "}
-                          {cartItems.reduce(
-                            (sum, item) => sum + item.price * item.quantity,
-                            0
-                          )}</span></span>
-                        </p>
+                    <div className="order-summary-main-content">
+                      <div className="order-summary-main-content-hdng">
+                        <p>Item</p>
+                        <p>Price</p>
                       </div>
-                    )}
+                      <div className="order-summary-main-content">
+                        {cartItems.length === 0 ? (
+                          <p>
+                            You have no items added in your cart. <br /> Visit our{" "}
+                            <Link to="/products">Products section</Link> to add it.
+                          </p>
+                        ) : (
+                          cartItems.map((item) => (
+                            <div className="order-summary-content" key={item.id}>
+                              <p className="item-name">{item.title} × {item.quantity}</p>
+                              <p className="item-price">₹ {(item.price * item.quantity).toFixed(2)}</p>
+                            </div>
+                          ))
+                        )}
 
-                    {cartItems.length > 0 && (
-                      <Link to="/order-confirmation" className="order-confirmation-btn common-btn">
-                        Place Your Order
-                      </Link>
-                    )}
+                        {cartItems.length > 0 && (
+                          <>
+                            <div className="order-summary-content">
+                              <p className="item-name">Shipping</p>
+                              <p className="item-price">₹ 75.00</p>
+                            </div>
 
+                            <div className="order-summary-content">
+                              <p className="item-name">Discount</p>
+                              <p className="item-price">- ₹ 75.00</p>
+                            </div>
+                          </>
+                        )}
+                      </div>
+                    </div>
+                  </div>
+
+                  {cartItems.length > 0 && (
+                    <div className="order-total">
+                      <p className="total-price">
+                        <span>Total: </span>
+                        <span>
+                          Rs <span>
+                            {cartItems.reduce(
+                              (sum, item) => sum + item.price * item.quantity,
+                              0
+                            ).toFixed(2)}
+                          </span>
+                        </span>
+                      </p>
+                    </div>
+                  )}
+
+                  {cartItems.length > 0 && (
+                    <Link to="/order-confirmation" className="order-confirmation-btn common-btn">
+                      Place Your Order
+                    </Link>
+                  )}
                 </div>
               </div>
             </div>
