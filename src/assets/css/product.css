@@ -6,7 +6,7 @@
   padding: 49px 0 111px;
 }
 .product-page-banner-content-container {
-  background: url(../images/product-listing-banner.png) no-repeat 100% 100% /
+  background: url(/assets/images/product-listing-banner.png) no-repeat 100% 100% /
     cover;
 }
 .product-banner-content {
@@ -197,14 +197,14 @@ section.faq-content-container {
   color: #000;
 }
 .accordion-item .accordion-header button::after {
-  background-image: url(../images/accordion-minus.png);
+  background-image: url(/assets/images/accordion-minus.png);
   background-repeat: no-repeat;
   background-size: 25px;
   width: 25px;
   height: 25px;
 }
 .accordion-item .accordion-header button.collapsed::after {
-  background-image: url(../images/accordion-plus.png);
+  background-image: url(/assets/images/accordion-plus.png);
 }
 .accordion-item .accordion-body {
   font-size: 16px;
