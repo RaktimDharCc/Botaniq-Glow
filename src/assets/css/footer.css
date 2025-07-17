@@ -59,6 +59,9 @@
 .footer-description {
   text-align: center;
 }
+.footer-nav-links ul li:first-child{
+  display: none;
+}
 @media (max-width:767px) {
   .top-footer-content-container{
   flex-wrap: wrap;
