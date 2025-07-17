@@ -4,7 +4,6 @@ import { useParams, useNavigate } from "react-router-dom";
 import "../assets/css/product.css";
 import ProductImagesSlider from "../components/ProductImageSlider";
 import { useCart } from "../context/CartContext";
-import productsData from "../data/products.json";
 import { Accordion } from "react-bootstrap";
 const ImageSource = "/assets/images";
 import "slick-carousel/slick/slick.css";
@@ -21,15 +20,24 @@ function ProductDetails() {
     const [product, setProduct] = useState(null);
     const [relatedProducts, setRelatedProducts] = useState([]);
     useEffect(() => {
-        const foundProduct = productsData.find((item) => isProduct(item) && item.id === Number(id));
-        if (foundProduct) {
-            setProduct(foundProduct);
-            const related = productsData.filter((item) => isProduct(item) &&
-                foundProduct.relatedProducts?.includes(item.id) &&
-                item.id !== foundProduct.id);
-            setRelatedProducts(related);
-        }
-    }, [id]);
+  fetch("/data/products.json")
+    .then((res) => res.json())
+    .then((data) => {
+      const foundProduct = data.find((item) => item?.id === Number(id));
+      if (foundProduct) {
+        setProduct(foundProduct);
+        const related = data.filter(
+          (item) =>
+            foundProduct.relatedProducts?.includes(item.id) &&
+            item.id !== foundProduct.id
+        );
+        setRelatedProducts(related);
+      }
+    })
+    .catch((err) => {
+      console.error("Failed to fetch products.json:", err);
+    });
+}, [id]);
     if (!product)
         return _jsx("p", { children: "Loading product details..." });
     const images = [

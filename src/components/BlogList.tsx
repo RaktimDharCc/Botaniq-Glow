@@ -2,14 +2,22 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import type { Blogs, Blog } from "../types/Blogs";
 import "../assets/css/bloglist.css";
-import blogsData from "../data/blogs.json";
 
 function BlogList() {
   const [blogs, setBlogs] = useState<Blogs>([]);
 
 useEffect(() => {
-  setBlogs(blogsData);
+  fetch("/data/blogs.json")
+    .then((res) => res.json())
+    .then((data: Blog[]) => {
+      setBlogs(data);
+    })
+    .catch((err) => {
+      console.error("Failed to fetch blogs:", err);
+      setBlogs([]);
+    });
 }, []);
+
 
   return (
     <section className="blog-list-sec">

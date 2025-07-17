@@ -4,7 +4,6 @@ import "../assets/css/product.css";
 import ProductImagesSlider from "../components/ProductImageSlider";
 import { useCart } from "../context/CartContext";
 import type { Product } from "../types/Product";
-import productsData  from "../data/products.json"
 import { Accordion } from "react-bootstrap";
 
 import "slick-carousel/slick/slick.css";
@@ -30,23 +29,31 @@ function ProductDetails() {
   const [product, setProduct] = useState<Product | null>(null);
   const [relatedProducts, setRelatedProducts] = useState<Product[]>([]);
 
-  useEffect(() => {
-    const foundProduct = productsData.find(
-      (item) => isProduct(item) && item.id === Number(id)
-    ) as Product | undefined;
-
-    if (foundProduct) {
-      setProduct(foundProduct);
-
-      const related = productsData.filter(
-        (item) =>
-          isProduct(item) &&
-          foundProduct.relatedProducts?.includes(item.id) &&
-          item.id !== foundProduct.id
+useEffect(() => {
+  fetch("/data/products.json")
+    .then((res) => res.json())
+    .then((data: Product[]) => {
+      const foundProduct = data.find(
+        (item) => isProduct(item) && item.id === Number(id)
       );
-      setRelatedProducts(related);
-    }
-  }, [id]);
+
+      if (foundProduct) {
+        setProduct(foundProduct);
+
+        const related = data.filter(
+          (item) =>
+            isProduct(item) &&
+            foundProduct.relatedProducts?.includes(item.id) &&
+            item.id !== foundProduct.id
+        );
+        setRelatedProducts(related);
+      }
+    })
+    .catch((err) => {
+      console.error("Failed to fetch products.json:", err);
+    });
+}, [id]);
+
 
   if (!product) return <p>Loading product details...</p>;
 

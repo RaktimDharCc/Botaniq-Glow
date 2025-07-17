@@ -1,0 +1,510 @@
+[
+  {
+    "id": 1,
+    "title": "Radiance Botanical Serum",
+    "image": "/assets/images/product1.png",
+    "image1": "/assets/images/product-det-1-1.png",
+    "image2": "/assets/images/product-det-1-2.png",
+    "image3": "/assets/images/product-det-1-3.png",
+    "image4": "/assets/images/product-det-1-4.png",
+    "price": 840,
+    "originalPrice": 1200,
+    "description": "<p>Experience visibly brighter, smoother skin with our <b>Radiance Botanical Serum</b>, a lightweight, plant-powered elixir designed to nourish, hydrate, and restore your skin’s natural glow.</p>",
+    "keyBenefits": "<ul><li>Infused with botanical extracts for deep nourishment</li><li>Reduces dullness and uneven texture</li><li>Boosts hydration and skin radiance</li><li>Lightweight, non-greasy formula ideal for daily use</li></ul>",
+    "collection": "Facial-Care",
+    "faqs": [
+      {
+        "question": "What skin type is this serum suitable for?",
+        "answer": "It’s suitable for all skin types — especially beneficial for dry, dull, or sensitive skin."
+      },
+      {
+        "question": "How often should I use this serum?",
+        "answer": "For best results, use it twice daily — morning and evening — on cleansed skin before moisturizing."
+      },
+      {
+        "question": "Can I use it alongside other serums or treatments?",
+        "answer": "Yes, you can layer it with other serums or treatments. Apply Radiance Botanical Serum first for maximum absorption."
+      },
+      {
+        "question": "Is this product vegan and cruelty-free?",
+        "answer": "Yes — it’s made with 100% vegan, plant-based ingredients and is never tested on animals."
+      },
+      {
+        "question": "Will it help with hyperpigmentation and dullness?",
+        "answer": "Absolutely. The botanical extracts are rich in vitamins that target uneven tone and boost your skin’s natural radiance."
+      },
+      {
+        "question": "Does it leave a greasy finish on the skin?",
+        "answer": "Not at all. It has a lightweight, fast-absorbing formula that leaves your skin dewy, not oily."
+      }
+    ],
+    "relatedProducts": [3, 8, 12]
+  },
+  {
+    "id": 2,
+    "title": "Hydra Dew Moisturizer",
+    "image": "/assets/images/product2.png",
+    "image1": "/assets/images/product-det-1-1.png",
+    "image2": "/assets/images/product-det-1-2.png",
+    "image3": "/assets/images/product-det-1-3.png",
+    "image4": "/assets/images/product-det-1-4.png",
+    "price": 1050,
+    "description": "<p>Replenish your skin’s moisture barrier with our <b>Hydra Dew Moisturizer</b>, a botanical-rich cream that soothes, hydrates, and locks in long-lasting comfort for visibly plump, dewy skin.</p>",
+    "keyBenefits": "<ul><li>Delivers intense, all-day hydration</li><li>Soothes dryness and irritation with natural plant oils</li><li>Restores skin elasticity and softness</li><li>Non-comedogenic formula suitable for all skin types</li></ul>",
+    "collection": "Facial-Care",
+    "faqs": [
+      {
+        "question": "What skin type is this moisturizer suitable for?",
+        "answer": "Hydra Dew Moisturizer is suitable for all skin types, including dry, oily, combination, and sensitive skin."
+      },
+      {
+        "question": "Can it be used both day and night?",
+        "answer": "Yes — its lightweight, nourishing formula makes it perfect for both your morning and evening skincare routines."
+      },
+      {
+        "question": "Is this moisturizer non-comedogenic?",
+        "answer": "Absolutely. It’s designed to deeply hydrate without clogging pores, making it ideal for acne-prone skin too."
+      },
+      {
+        "question": "Does it leave a sticky or heavy feeling?",
+        "answer": "No, the texture is light and absorbs quickly, leaving your skin soft and dewy without any greasy residue."
+      },
+      {
+        "question": "Can it be layered under makeup?",
+        "answer": "Yes — it makes an excellent base for makeup, helping your skin stay hydrated and fresh throughout the day."
+      },
+      {
+        "question": "Is it free from synthetic fragrances and parabens?",
+        "answer": "Yes, it's made with clean, plant-based ingredients and contains no synthetic fragrances, parabens, or harsh chemicals."
+      }
+    ],
+    "relatedProducts": [4, 7, 11]
+  },
+  {
+    "id": 3,
+    "title": "Clarifying Clay Mask",
+    "image": "/assets/images/product3.png",
+    "image1": "/assets/images/product-det-1-1.png",
+    "image2": "/assets/images/product-det-1-2.png",
+    "image3": "/assets/images/product-det-1-3.png",
+    "image4": "/assets/images/product-det-1-4.png",
+    "price": 920,
+    "originalPrice": 1260,
+    "description": "<p>Purify and detoxify your skin with our <b>Clarifying Clay Mask</b>, a gentle, botanical-infused treatment that draws out impurities, balances excess oil, and leaves skin clear and refreshed.</p>",
+    "keyBenefits": "<ul><li>Detoxifies skin by drawing out dirt and pollutants</li><li>Balances oil production and reduces breakouts</li><li>Infused with soothing botanicals to calm irritation</li><li>Leaves skin visibly clearer, smoother, and soft</li></ul>",
+    "collection": "Facial-Care",
+    "faqs": [
+      {
+        "question": "How often should I use the Clarifying Clay Mask?",
+        "answer": "Use it 1-2 times per week for normal to oily skin, and once a week for dry or sensitive skin."
+      },
+      {
+        "question": "Is this mask suitable for acne-prone skin?",
+        "answer": "Yes — its clay and botanical extracts help control excess oil, unclog pores, and reduce breakouts."
+      },
+      {
+        "question": "How long should I leave the mask on?",
+        "answer": "Leave it on for 10-12 minutes or until it begins to dry, then rinse with lukewarm water."
+      },
+      {
+        "question": "Does it cause dryness after use?",
+        "answer": "No — it contains hydrating botanicals that keep your skin balanced and soothed after detoxifying."
+      },
+      {
+        "question": "Can I use this mask on sensitive skin?",
+        "answer": "Yes, but limit use to once a week and patch test first, as it’s a deep-cleansing treatment."
+      },
+      {
+        "question": "Is it free from synthetic colors and parabens?",
+        "answer": "Absolutely — it’s made with clean, natural ingredients and free from parabens, synthetic fragrances, and dyes."
+      },
+      {
+        "question": "Will it tighten pores over time?",
+        "answer": "Yes — regular use helps minimize the appearance of pores and refines skin texture."
+      }
+    ],
+    "relatedProducts": [2, 6, 10]
+  },
+  {
+    "id": 4,
+    "title": "Glow Tonic (Botanical Essence Toner)",
+    "image": "/assets/images/product4.png",
+    "image1": "/assets/images/product-det-1-1.png",
+    "image2": "/assets/images/product-det-1-2.png",
+    "image3": "/assets/images/product-det-1-3.png",
+    "image4": "/assets/images/product-det-1-4.png",
+    "price": 999,
+    "description": "<p>Refresh and revitalize your skin with our <b>Glow Tonic</b>, a balancing botanical toner that gently refines texture, hydrates, and restores natural radiance.</p>",
+    "keyBenefits": "<ul><li>Balances pH and preps skin for serums and moisturizers</li><li>Hydrates with natural floral waters and plant extracts</li><li>Minimizes appearance of pores and uneven texture</li><li>Leaves skin feeling clean, fresh, and glowing</li></ul>",
+    "collection": "Facial-Care",
+    "faqs": [
+      {
+        "question": "What skin types is the Glow Tonic suitable for?",
+        "answer": "It’s suitable for all skin types, especially combination, dull, or sensitive skin."
+      },
+      {
+        "question": "Can I use this toner daily?",
+        "answer": "Yes — it’s gentle enough for daily use, both morning and evening."
+      },
+      {
+        "question": "Does it contain alcohol?",
+        "answer": "No, Glow Tonic is alcohol-free and made with soothing botanical ingredients."
+      },
+      {
+        "question": "Will it help with minimizing pores?",
+        "answer": "Yes — regular use helps tighten and visibly reduce the appearance of pores."
+      },
+      {
+        "question": "Should I use this before or after serums?",
+        "answer": "Apply it immediately after cleansing and before applying serums or moisturizers."
+      },
+      {
+        "question": "Does it leave a sticky or tight feeling?",
+        "answer": "Not at all — it leaves skin feeling refreshed, balanced, and comfortably hydrated."
+      }
+    ],
+    "relatedProducts": [1, 8, 9]
+  },
+  {
+    "id": 5,
+    "title": "Nourishing Cleansing Balm",
+    "image": "/assets/images/product5.png",
+    "image1": "/assets/images/product-det-1-1.png",
+    "image2": "/assets/images/product-det-1-2.png",
+    "image3": "/assets/images/product-det-1-3.png",
+    "image4": "/assets/images/product-det-1-4.png",
+    "price": 935,
+    "originalPrice": 1037.65,
+    "description": "<p>Melt away makeup and impurities while nourishing your skin with our <b>Nourishing Cleansing Balm</b>, a botanical-rich formula that leaves your complexion soft, supple, and deeply cleansed.</p>",
+    "keyBenefits": "<ul><li>Dissolves makeup, dirt, and sunscreen effectively</li><li>Infused with nourishing plant oils and butters</li><li>Leaves skin soft, hydrated, and never stripped</li><li>Perfect for dry and sensitive skin types</li></ul>",
+    "collection": "Facial-Care",
+    "faqs": [
+      {
+        "question": "Is this cleansing balm suitable for all skin types?",
+        "answer": "Yes — it works for all skin types, especially dry, sensitive, and combination skin."
+      },
+      {
+        "question": "Can it remove waterproof makeup?",
+        "answer": "Absolutely — it effectively melts away waterproof makeup, sunscreen, and excess oil."
+      },
+      {
+        "question": "How do I use the Nourishing Cleansing Balm?",
+        "answer": "Massage a small amount onto dry skin, then emulsify with water and rinse thoroughly."
+      },
+      {
+        "question": "Will it leave a greasy residue after rinsing?",
+        "answer": "No — it transforms into a silky milk when mixed with water, leaving no greasy film behind."
+      },
+      {
+        "question": "Is it safe for use around the eyes?",
+        "answer": "Yes, it’s gentle enough for the delicate eye area, but avoid direct contact with eyes."
+      },
+      {
+        "question": "Does it contain artificial fragrance or parabens?",
+        "answer": "No — it’s formulated with natural botanical oils and is free from synthetic fragrances, parabens, and sulfates."
+      },
+      {
+        "question": "Can I use it as my only cleanser?",
+        "answer": "Yes — it can be used alone or as the first step in a double-cleansing routine."
+      }
+    ],
+    "relatedProducts": [3, 7, 11]
+  },
+  {
+    "id": 6,
+    "title": "Daily Gentle Foaming Cleanser",
+    "image": "/assets/images/product6.png",
+    "image1": "/assets/images/product-det-1-1.png",
+    "image2": "/assets/images/product-det-1-2.png",
+    "image3": "/assets/images/product-det-1-3.png",
+    "image4": "/assets/images/product-det-1-4.png",
+    "price": 1100,
+    "originalPrice": 1312.5,
+    "description": "<p>Start your day with our <b>Daily Gentle Foaming Cleanser</b>, a refreshing, sulfate-free botanical formula that lifts away impurities while keeping skin balanced and hydrated.</p>",
+    "keyBenefits": "<ul><li>Gently removes dirt, excess oil, and makeup</li><li>Infused with calming plant extracts like aloe and green tea</li><li>Maintains skin's natural moisture barrier</li><li>Leaves skin feeling clean, soft, and refreshed</li></ul>",
+    "collection": "Facial-Care",
+    "faqs": [
+      {
+        "question": "Is this foaming cleanser suitable for sensitive skin?",
+        "answer": "Yes — it’s sulfate-free and enriched with calming botanicals like aloe and green tea, making it gentle for sensitive skin."
+      },
+      {
+        "question": "Can I use this cleanser every day?",
+        "answer": "Absolutely — it’s designed for daily use, morning and night."
+      },
+      {
+        "question": "Does it remove makeup effectively?",
+        "answer": "Yes — it gently lifts away makeup, dirt, and excess oil without stripping your skin."
+      },
+      {
+        "question": "Will it dry out my skin?",
+        "answer": "No — it’s formulated to maintain your skin’s natural moisture barrier while cleansing."
+      },
+      {
+        "question": "Is it suitable for acne-prone skin?",
+        "answer": "Yes — its soothing and clarifying ingredients help keep pores clean and skin calm."
+      },
+      {
+        "question": "Is this cleanser free from harsh chemicals?",
+        "answer": "Yes — it contains no sulfates, parabens, synthetic fragrances, or dyes."
+      }
+    ],
+    "relatedProducts": [2, 9, 12]
+  },
+  {
+    "id": 7,
+    "title": "Petal Veil Face Oil",
+    "image": "/assets/images/product12.png",
+    "image1": "/assets/images/product-det-1-1.png",
+    "image2": "/assets/images/product-det-1-2.png",
+    "image3": "/assets/images/product-det-1-3.png",
+    "image4": "/assets/images/product-det-1-4.png",
+    "price": 1189.15,
+    "originalPrice": 1399,
+    "description": "<p>Indulge your skin with the delicate touch of our <b>Petal Veil Face Oil</b>, a luxurious botanical blend crafted to soften, nourish, and illuminate for a naturally dewy glow.</p>",
+    "keyBenefits": "<ul><li>Deeply hydrates and nourishes with natural plant oils</li><li>Boosts skin radiance and elasticity</li><li>Calms redness and irritation with soothing botanicals</li><li>Perfect as a final step in your nighttime ritual</li></ul>",
+    "collection": "Special-Treatments",
+    "faqs": [
+      {
+        "question": "Is Petal Veil Face Oil suitable for oily skin?",
+        "answer": "Yes — it’s lightweight and fast-absorbing, designed to balance and nourish without clogging pores."
+      },
+      {
+        "question": "Can I use this oil both day and night?",
+        "answer": "While it’s ideal for your nighttime routine, you can also mix a drop with your daytime moisturizer for extra glow."
+      },
+      {
+        "question": "Does it leave a greasy residue?",
+        "answer": "No — it absorbs quickly, leaving skin dewy and soft without an oily finish."
+      },
+      {
+        "question": "Will it help with dry patches and irritation?",
+        "answer": "Absolutely — the blend of calming botanicals soothes irritation and deeply hydrates dry areas."
+      },
+      {
+        "question": "Is it vegan and cruelty-free?",
+        "answer": "Yes — it’s 100% vegan, made with plant-based oils, and never tested on animals."
+      },
+      {
+        "question": "Can it be used with other serums and treatments?",
+        "answer": "Yes — apply it as the final step in your routine to lock in moisture and benefits from previous products."
+      },
+      {
+        "question": "Does it have artificial fragrance or colorants?",
+        "answer": "No — it’s scented naturally with pure botanical extracts and contains no synthetic dyes."
+      }
+    ],
+    "relatedProducts": [3, 6, 11]
+  },
+  {
+    "id": 8,
+    "title": "Under - Eye Renewal Cream",
+    "image": "/assets/images/product7.png",
+    "image1": "/assets/images/product-det-1-1.png",
+    "image2": "/assets/images/product-det-1-2.png",
+    "image3": "/assets/images/product-det-1-3.png",
+    "image4": "/assets/images/product-det-1-4.png",
+    "price": 1099,
+    "description": "<p>Revive and brighten tired eyes with our <b>Under-Eye Renewal Cream</b>, a nourishing botanical blend that targets puffiness, dark circles, and fine lines for a visibly refreshed look.</p>",
+    "keyBenefits": "<ul><li>Reduces the appearance of dark circles and puffiness</li><li>Hydrates and smoothens the delicate under-eye area</li><li>Infused with soothing plant extracts like cucumber and chamomile</li><li>Lightweight, fast-absorbing texture ideal for day and night</li></ul>",
+    "collection": "Special-Treatments",
+    "faqs": [
+      {
+        "question": "Is this eye cream suitable for sensitive skin?",
+        "answer": "Yes — it's formulated with gentle botanicals like cucumber and chamomile, perfect for delicate under-eye skin."
+      },
+      {
+        "question": "How often should I use this product?",
+        "answer": "For best results, apply twice daily — morning and evening."
+      },
+      {
+        "question": "Will it reduce dark circles permanently?",
+        "answer": "While it brightens and improves appearance over time, consistent use is key for visible, lasting results."
+      },
+      {
+        "question": "Can it be used under makeup?",
+        "answer": "Yes — its lightweight, fast-absorbing texture makes it an ideal base under concealer or foundation."
+      },
+      {
+        "question": "Does it help with fine lines and wrinkles?",
+        "answer": "Yes — its nourishing formula hydrates and smooths fine lines, improving skin texture with regular use."
+      },
+      {
+        "question": "Is it free from parabens and synthetic fragrances?",
+        "answer": "Absolutely — it’s made with clean, botanical ingredients and contains no parabens or artificial fragrances."
+      }
+    ],
+    "relatedProducts": [2, 5, 9]
+  },
+  {
+    "id": 9,
+    "title": "Blemish Control Spot Treatment",
+    "image": "/assets/images/product8.png",
+    "image1": "/assets/images/product-det-1-1.png",
+    "image2": "/assets/images/product-det-1-2.png",
+    "image3": "/assets/images/product-det-1-3.png",
+    "image4": "/assets/images/product-det-1-4.png",
+    "price": 899.5,
+    "originalPrice": 1300,
+    "description": "<p>Treat blemishes quickly and gently with our <b>Blemish Control Spot Treatment</b>, a fast-acting, botanical-powered formula that reduces redness, calms irritation, and targets breakouts at the source.</p>",
+    "keyBenefits": "<ul><li>Minimizes the appearance of blemishes and breakouts</li><li>Calms redness and soothes inflamed skin</li><li>Infused with natural antibacterial plant extracts</li><li>Non-drying, gentle on sensitive skin</li></ul>",
+    "collection": "Special-Treatments",
+    "faqs": [
+      {
+        "question": "Is this spot treatment suitable for sensitive skin?",
+        "answer": "Yes — it’s formulated to be gentle, soothing, and non-drying, even on sensitive skin."
+      },
+      {
+        "question": "How often can I apply this product?",
+        "answer": "You can use it 1-3 times a day directly on blemishes until they visibly reduce."
+      },
+      {
+        "question": "Will it dry out the skin around my blemishes?",
+        "answer": "No — it calms and treats breakouts without leaving surrounding skin flaky or irritated."
+      },
+      {
+        "question": "Does it work on cystic or hormonal acne?",
+        "answer": "It’s effective on surface blemishes and redness; for deeper cystic acne, it helps reduce inflammation but should be part of a broader skincare plan."
+      },
+      {
+        "question": "Can I use it under makeup?",
+        "answer": "Yes — allow it to dry completely before applying makeup for best results."
+      },
+      {
+        "question": "Is it fragrance-free and non-comedogenic?",
+        "answer": "Yes — it’s fragrance-free, non-comedogenic, and made with clean botanical ingredients."
+      },
+      {
+        "question": "How quickly will I see results?",
+        "answer": "Many users notice reduced redness and inflammation within 12-24 hours of application."
+      }
+    ],
+    "relatedProducts": [4, 7, 12]
+  },
+  {
+    "id": 10,
+    "title": "Botaniq Gua Sha Tool",
+    "image": "/assets/images/product9.png",
+    "image1": "/assets/images/product-det-1-1.png",
+    "image2": "/assets/images/product-det-1-2.png",
+    "image3": "/assets/images/product-det-1-3.png",
+    "image4": "/assets/images/product-det-1-4.png",
+    "price": 1225,
+    "originalPrice": 1499,
+    "description": "<p>Elevate your skincare ritual with our handcrafted <b>Botaniq Gua Sha Tool</b>, designed to enhance circulation, relieve tension, and sculpt facial contours naturally.</p>",
+    "keyBenefits": "<ul><li>Promotes lymphatic drainage and reduces puffiness</li><li>Improves skin elasticity and natural glow</li><li>Relieves muscle tension in the face and neck</li><li>Carved from natural stone for a soothing, cooling effect</li></ul>",
+    "collection": "Extras-Rituals",
+    "faqs": [
+      {
+        "question": "What is the best way to use a Gua Sha tool?",
+        "answer": "Use gentle upward and outward strokes on moisturized skin, starting from the center of your face."
+      },
+      {
+        "question": "How often should I use the Gua Sha tool?",
+        "answer": "For best results, use it 3-5 times a week, though daily use is safe and highly beneficial."
+      },
+      {
+        "question": "Does it help reduce puffiness?",
+        "answer": "Yes — regular use encourages lymphatic drainage and visibly reduces puffiness and swelling."
+      },
+      {
+        "question": "Can it be used on sensitive skin?",
+        "answer": "Yes — it’s suitable for all skin types. Always apply gentle pressure and use a facial oil or serum to avoid pulling."
+      },
+      {
+        "question": "Is each tool made from natural stone?",
+        "answer": "Absolutely — each piece is hand-carved from natural stone, offering a cooling and soothing effect."
+      },
+      {
+        "question": "Can it help with tension headaches?",
+        "answer": "Yes — gently massaging the temples, neck, and jawline with the tool can help relieve facial and neck tension."
+      }
+    ],
+    "relatedProducts": [3, 8, 11]
+  },
+  {
+    "id": 11,
+    "title": "Rejuvenating Facial Oil Roller",
+    "image": "/assets/images/product10.png",
+    "image1": "/assets/images/product-det-1-1.png",
+    "image2": "/assets/images/product-det-1-2.png",
+    "image3": "/assets/images/product-det-1-3.png",
+    "image4": "/assets/images/product-det-1-4.png",
+    "price": 1499,
+    "description": "<p>Restore your skin’s natural radiance with our <b>Rejuvenating Facial Oil Roller</b>, a luxurious, plant-powered blend designed to hydrate, nourish, and promote a youthful glow on the go.</p>",
+    "keyBenefits": "<ul><li>Delivers deep hydration with nutrient-rich botanical oils</li><li>Reduces appearance of fine lines and dryness</li><li>Convenient roller format for targeted application</li><li>Perfect for travel and mid-day skin refresh</li></ul>",
+    "collection": "Extras-Rituals",
+    "faqs": [
+      {
+        "question": "Is this facial oil roller suitable for oily skin?",
+        "answer": "Yes — it’s lightweight, fast-absorbing, and balances excess oil while deeply nourishing your skin."
+      },
+      {
+        "question": "Can I use it over makeup?",
+        "answer": "Yes — apply gently on top of makeup to refresh and hydrate your skin throughout the day."
+      },
+      {
+        "question": "How often should I use the facial oil roller?",
+        "answer": "You can use it as needed throughout the day or as part of your morning and evening skincare routines."
+      },
+      {
+        "question": "Does it help with fine lines?",
+        "answer": "Absolutely — its botanical oils help plump and hydrate the skin, softening the appearance of fine lines."
+      },
+      {
+        "question": "Is it refillable or single-use?",
+        "answer": "This is a single-use, sealed roller bottle designed to maintain the purity of its natural oils."
+      },
+      {
+        "question": "What’s the best area to apply it on the face?",
+        "answer": "Focus on dry areas, under the eyes, around fine lines, and anywhere needing a boost of hydration."
+      },
+      {
+        "question": "Is it scented with synthetic fragrance?",
+        "answer": "No — it’s naturally scented with pure botanical oils and contains no artificial fragrances."
+      }
+    ],
+    "relatedProducts": [5, 7, 9]
+  },
+  {
+    "id": 12,
+    "title": "Botaniq Glow Travel Kit",
+    "image": "/assets/images/product11.png",
+    "image1": "/assets/images/product-det-1-1.png",
+    "image2": "/assets/images/product-det-1-2.png",
+    "image3": "/assets/images/product-det-1-3.png",
+    "image4": "/assets/images/product-det-1-4.png",
+    "price": 874.3,
+    "originalPrice": 1249,
+    "description": "<p>Take your skincare glow wherever you go with our <b>Botaniq Glow Travel Kit</b>, a curated set of mini essentials crafted to keep your skin fresh, hydrated, and radiant on every adventure.</p>",
+    "keyBenefits": "<ul><li>Includes travel-sized skincare favorites</li><li>Keeps skin nourished and protected while on the move</li><li>Perfect for weekend getaways and carry-ons</li><li>Botanical-rich formulas in compact, easy-to-pack sizes</li></ul>",
+    "collection": "Extras-Rituals",
+    "faqs": [
+      {
+        "question": "What products are included in the Travel Kit?",
+        "answer": "The kit includes mini sizes of our cleanser, toner, facial oil, and moisturizer for a complete routine on the go."
+      },
+      {
+        "question": "Are the products in the kit suitable for all skin types?",
+        "answer": "Yes — every product in the kit is formulated to suit all skin types, including sensitive skin."
+      },
+      {
+        "question": "Is this kit flight-friendly?",
+        "answer": "Absolutely — all products are under 100ml and perfect for carry-on luggage."
+      },
+      {
+        "question": "Can I refill the mini bottles after use?",
+        "answer": "Yes — the containers are reusable, so you can refill them with your full-size favorites."
+      },
+      {
+        "question": "How long will the travel kit last?",
+        "answer": "It typically lasts for a weekend getaway to a full week, depending on usage."
+      },
+      {
+        "question": "Is it a good option for gifting?",
+        "answer": "Definitely — it makes a thoughtful, practical gift for skincare lovers and frequent travelers."
+      }
+    ],
+    "relatedProducts": [2, 4, 8]
+  }
+]

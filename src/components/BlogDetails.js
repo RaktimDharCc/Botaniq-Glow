@@ -1,18 +1,23 @@
 import { jsx as _jsx, jsxs as _jsxs } from "react/jsx-runtime";
 import { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
-import blogsData from "../data/blogs.json";
 const ImageSource = "../src/assets/images";
 
 function BlogDetails() {
   const { id } = useParams();
   const [blog, setBlog] = useState(null);
 
-  useEffect(() => {
-    // ✅ Replacing fetch with static import
-    const found = blogsData.find((b) => b.id === Number(id));
-    setBlog(found || null);
-  }, [id]);
+useEffect(() => {
+  fetch("/data/blogs.json")
+    .then((res) => res.json())
+    .then((data) => {
+      const found = data.find((b) => b.id === Number(id));
+      setBlog(found || null);
+    })
+    .catch((err) => {
+      console.error("Failed to fetch blogs.json:", err);
+    });
+}, [id]);
 
   if (!blog) return _jsx("p", { children: "Loading..." });
 

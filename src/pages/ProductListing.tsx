@@ -2,7 +2,6 @@ import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 import type { Product } from "../types/Product";
-import productsData from "../data/products.json";
 
 
 import "../assets/css/product.css";
@@ -17,8 +16,12 @@ function ProductListing() {
   };
 
 useEffect(() => {
-  setProducts(productsData);
+  fetch("/data/products.json")
+    .then((res) => res.json())
+    .then((data) => setProducts(data))
+    .catch((err) => console.error("Failed to load products:", err));
 }, []);
+
 
   // Get unique collection names dynamically
   const collections = Array.from(new Set(products.map((product) => product.collection)));

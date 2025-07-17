@@ -1,16 +1,24 @@
 import React, { useEffect, useState } from "react";
 import { Link, useParams } from "react-router-dom";
 import type { Blog } from "../types/Blogs";
-import blogsData from "../data/blogs.json";
 
 function BlogDetails() {
   const { id } = useParams<{ id: string }>();
   const [blog, setBlog] = useState<Blog | null>(null);
 
-  useEffect(() => {
-  const found = blogsData.find((b) => b.id === Number(id));
-  setBlog(found || null);
+useEffect(() => {
+  fetch("/data/blogs.json")
+    .then((res) => res.json())
+    .then((data: Blog[]) => {
+      const found = data.find((b) => b.id === Number(id));
+      setBlog(found || null);
+    })
+    .catch((err) => {
+      console.error("Failed to load blog:", err);
+      setBlog(null);
+    });
 }, [id]);
+
 
   if (!blog) return <p>Loading...</p>;
 
