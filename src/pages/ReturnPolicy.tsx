@@ -11,7 +11,7 @@ function ReturnPolicy() {
 
 
   return (
-    <>
+  
        <>
       <section className="sub-page-content-container terms-content-container returns-page-content-container">
         <div className="container">
@@ -64,7 +64,6 @@ function ReturnPolicy() {
             
         </div>
       </section>
-    </>
     </>
   );
 }
