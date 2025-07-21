@@ -54,17 +54,18 @@
   overflow: hidden;
   padding: 0 7px;
   padding-right: 10px;
+  margin-bottom: 20px;
 }
 .product-description-container {
   margin-left: 9px;
   text-align: center;
 }
 .product-description-container h4 {
-  font-size: 29px;
-  line-height: 130%;
-  letter-spacing: 1px;
-  font-weight: 600;
-  min-height: 78px;
+    font-size: 24px;
+    line-height: 130%;
+    letter-spacing: 1px;
+    font-weight: 600;
+    min-height: fit-content;
 }
 .product-description-container p {
   font-size: 35px;
@@ -235,9 +236,10 @@ section.product-content-container {
 @media (max-width:991.5px) {
   .product-content-container .button-container {
     display: flex;
+    justify-content: center;
 }
 .button-container .btn.btn-outline-primary , .button-container .btn-primary{
-  width: unset;
+    width: unset;
     max-width: 130px;
 }
 .product-page-banner-content-container {
