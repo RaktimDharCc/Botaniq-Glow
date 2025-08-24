@@ -24,7 +24,7 @@ const isProduct = (item: any): item is Product => {
 
 function ProductDetails() {
   const { id } = useParams();
-  const navigate = useNavigate();
+  const navigatePage = useNavigate();
   const { addToCart, toggleSidebar } = useCart();
   const [product, setProduct] = useState<Product | null>(null);
   const [relatedProducts, setRelatedProducts] = useState<Product[]>([]);
@@ -130,7 +130,7 @@ useEffect(() => {
                 className="common-btn buy-now"
                 onClick={() => {
                   addToCart(product);
-                  navigate("/checkout");
+                  navigatePage("/checkout");
                 }}
               >
                 Buy Now
@@ -209,7 +209,7 @@ useEffect(() => {
                       </button>
                       <button
                         className="btn btn-outline-primary"
-                        onClick={() => navigate(`/product/${relProd.id}`)}
+                        onClick={() => navigatePage(`/product/${relProd.id}`)}
                       >
                         Buy Now
                       </button>

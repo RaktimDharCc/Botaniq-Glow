@@ -1,10 +1,6 @@
 import React, { createContext, useContext, useState } from "react";
 import type { Product } from "../types/Product";
-
-// Type for cart item: extends Product and adds quantity
-export type CartItem = Product & {
-  quantity: number;
-};
+import type { CartItem } from "@/types/CartItem";
 
 // Context type definition
 export type CartContextType = {
@@ -55,21 +51,21 @@ export const CartProvider: React.FC<{ children: React.ReactNode }> = ({
   };
 
   // Remove product from cart or decrease quantity by 1
-  const removeFromCart = (productId: number) => {
+  const removeFromCart = (productId: number) => { //productId is a type declaration for Typescript
     setCartItems((prevItems) => {
-      const existingItem = prevItems.find((item) => item.id === productId);
-      if (!existingItem) return prevItems;
+      const existingItem = prevItems.find((item) => item.id === productId); // This checks if the product already exists in the cart or not
+      if (!existingItem) return prevItems; // If the existing item is false then the followiing previous value of the cart should be reflected and not get updated with anything
 
-      if (existingItem.quantity > 1) {
+      if (existingItem.quantity > 1) { //This checks if the product's quantity is greater than 1 or not 
         // Decrease quantity by 1
-        return prevItems.map((item) =>
+        return prevItems.map((item) => // This goes through each and every item of the Product object of the cart value and checks if the product exists or not and if it does and it's more than 1 then extend the item object into a new object of the item by Spread operator and then update the quantiy by -1
           item.id === productId
             ? { ...item, quantity: item.quantity - 1 }
             : item
         );
       } else {
         // Remove item completely
-        return prevItems.filter((item) => item.id !== productId);
+        return prevItems.filter((item) => item.id !== productId); // The filter method creates a new array with only the elements which satisfies the condition which is if the item id is not matching with the product id then the following condition appears true which means the filter method will create a new array and then only keep the items whose item.id (the one we are trying to remove) is matching with the productId
       }
     });
   };

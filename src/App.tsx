@@ -39,10 +39,7 @@ function App() {
           <Route path="/" element={<HomePage />} />
           <Route path="/products" element={<ProductListing />} />
           <Route path="/product/:id" element={<ProductDetails />} />
-
-          {/* ✅ Newly added route for collection/category listing */}
           <Route path="/collection/:category" element={<ProductListing />} />
-
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/order-confirmation" element={<OrderConfirmation />} />
           <Route path="/ContactUs" element={<ContactUs />} />
