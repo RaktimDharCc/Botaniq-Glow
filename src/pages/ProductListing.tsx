@@ -70,7 +70,7 @@ useEffect(() => {
             Home / <b>{category ? category : "Products"}</b>
           </p> */}
           <p className="banner-top-content">
-            Home / <b> Productssssss {category ? "/" + category : ""}</b>
+            Home / <b> Productssssss </b>
           </p>
         </div>
         <div className="product-page-banner-content-container">
