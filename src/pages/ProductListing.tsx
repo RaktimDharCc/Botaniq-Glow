@@ -66,18 +66,15 @@ useEffect(() => {
     <>
       <section className="product-page-banner">
         <div className="container">
-          {/* <p className="banner-top-content">
-            Home / <b>{category ? category : "Products"}</b>
-          </p> */}
           <p className="banner-top-content">
-            Home / <b> Productssssss </b>
+            Home / <b>{category ? category : "Products"}</b>
           </p>
         </div>
         <div className="product-page-banner-content-container">
           <div className="container">
             <div className="product-banner-content">
               <div className="product-banner">
-                <h2>Glow Starts with Naturesss</h2>
+                <h2>Glow Starts with Nature</h2>
                 <p>
                   Explore our plant-powered skincare range — thoughtfully crafted to nourish, restore, and reveal your natural radiance.
                 </p>
